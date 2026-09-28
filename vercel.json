@@ -1,0 +1,15 @@
+{
+  "rewrites": [
+    { "source": "/retreat", "destination": "/retreat.html" }
+  ],
+  "headers": [
+    {
+      "source": "/retreat",
+      "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }]
+    },
+    {
+      "source": "/retreat.html",
+      "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }]
+    }
+  ]
+}
