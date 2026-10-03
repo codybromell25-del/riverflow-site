@@ -1,6 +1,7 @@
 {
   "rewrites": [
-    { "source": "/retreat", "destination": "/retreat.html" }
+    { "source": "/retreat", "destination": "/retreat.html" },
+    { "source": "/events", "destination": "/events.html" }
   ],
   "headers": [
     {
